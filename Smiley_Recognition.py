@@ -15,7 +15,7 @@ class SmileyRecognizer(object):  #The main class
     def __init__(self): #class init method or constructor
         self.root=Tk() #create a root widget which is a window
         self.root.geometry("600x600") #Set the dimensions of the window
-        self.root.title("Digit Recognizer")  #Set the title of the window
+        self.root.title("Smiley and Frown Face Recognizer")  #Set the title of the window
 
 
         self.pen_button= Button(self.root, text='Pen', command=self.use_pen)  #Initialize pen button
